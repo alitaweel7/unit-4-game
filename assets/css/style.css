@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    content: " ";
+    display: block;
+    clear: both;
+    overflow: auto;
+}
+
+h1 {
+    background-color: red;
+    color: aliceblue;
+    width: 30%;
+}
+.crystalGame {
+    background-color: red;
+    width: 60%;
+    color: aliceblue;
+
+}
+.content {
+    background-color: red;
+    width: 60%;
+    color: aliceblue;
+}
+
+.gems {
+    margin: 5px;
+    border: 3px solid red;
+    float: left;
+}
+
+.gems {
+    width: inherit;
+}
+
+img {
+    width: 150px;
+    height: 150px
+}
