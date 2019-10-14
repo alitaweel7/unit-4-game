@@ -53,6 +53,7 @@ crystalArray = [crystal1, crystal2, crystal3, crystal4,]
 
 for (let i = 0; i < crystalArray.length; i++) {
 
+
     // crystalArray.forEach(function (value, index) {
     value = Math.floor(Math.random() * (crystalMax - crystalMin)) + crystalMin
     // console.log('Crystal${index+1}: ${value}'); //triggers the function whenever the player clicks that specific button, increments the score and calls the two other functions 
